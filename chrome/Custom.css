@@ -1,0 +1,183 @@
+/* Theme devTools v0.1.0
+ *
+/* https://github.com/mateusortiz/theme-devtools
+/*
+/* Copyright 2013, All rights reserved
+/*
+/*
+/* @author Mateus Ortiz <mateus.prado@ig.com.br>
+/* @author Fabio M. Costa <**@gmail.com>
+/*************************************************************************/
+
+
+#-webkit-web-inspector {
+	background-color: #002b36 !important;
+}
+
+/* GENERIC TYPO, COLORS, SIDEBAR
+----------------------------------------------------------------------------------------------------------*/
+
+#-webkit-web-inspector .styles-secttion,
+#-webkit-web-inspector #main-panels .script-view,
+#-webkit-web-inspector #main-panels .source-code,
+#-webkit-web-inspector #main-panels .text-editor-contents {
+	background-color: #002b36 !important;
+	font-size: 13px !important;
+	line-height: 18px !important;
+	tab-size: 2 !important;
+	font-family: "Bitstream Vera Sans Mono", monospace !important;
+}
+
+#-webkit-web-inspector .monospace,
+#-webkit-web-inspector .source-code {
+	color: rgba(193, 193, 193, 1);
+	font-size: 15px !important;
+	font-size: "Bitstream Vera Sans Mono", monospace !important;
+}
+
+#-webkit-web-inspector #main-panels. .resource-headers-view .source-code {
+	font-size: 13px !important;
+	line-height: 14px !important;
+}
+
+#-webkit-web-inspector .status-bar {
+	background: -webkit-linear-gradient(#505050,#383838) !important;
+	border-top: 1px solid #222 !important;
+	border-bottom: 1px solid #222 !important;
+	border-color: #222 !important;
+	box-shadow: inset 0 1px 0 #6e6e6e, 0 2px 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4) !important;
+}
+
+#-webkit-web-inspector #main-status-bar {
+	height: 24px !important;
+	border-bottom-width: 0 !important;
+}
+
+#-webkit-web-inspector .long-click-glyph {
+	display: none !important;
+}
+
+#-webkit-web-inspector .status-bar li,
+#-webkit-web-inspector .status-bar span,
+#-webkit-web-inspector .status-bar select {
+	color: #f8f8f8 !important;
+	font-weight: normal !important;
+	text-shadow: none !important;
+}
+
+#-webkit-web-inspector .status-bar button.status-bar-item {
+	border-left-color: #333 !important;
+	border-right-color: #333 !important;
+}
+
+#-webkit-web-inspector .status-bar .crumbs {
+	text-shadow: none !important;
+	color: #f8f8f8 !important;
+}
+
+#-webkit-web-inspector .status-bar-items {
+	border: 0 none !important;
+}
+
+#-webkit-web-inspector .status-bar-select-container,
+#-webkit-web-inspector .status-bar-select-container select {
+	border: 0 none !important;
+}
+
+#-webkit-web-inspector .status-bar .crumbs .crumb {
+	-webkit-border-image: none !important;
+	text-shadow: none !important;
+	padding: 0 14px !important;
+}
+
+#-webkit-web-inspector .status-bar .crumbs .crumb.selected {
+	background-color: rgba(155, 89, 182,1.0) !important;
+}
+
+#-webkit-web-inspector #toolbar {
+	background: -webkit-linear-gradient(#505050,#383838) !important;
+	border-top: 1px solid #222 !important;
+	border-bottom: 1px solid #222 !important;
+	box-shadow: inset 0 1px 0 #6e6e6e, 0 2px 2px rgba(0, 0, 0, 0.4), 0 -2px 2px rgba(0, 0, 0, 0.4) !important;
+	height: auto !important;
+}
+
+#-webkit-web-inspector .toolbar-label {
+	color: #999 !important;
+	position: relative !important;
+	top: 0px !important;
+}
+
+#-webkit-web-inspector #toolbar > button {
+	box-shadow: none !important;
+	border: 0 none !important;
+	line-height: 22px !important;
+	padding: 4px 14px 6px !important;
+	cursor: pointer !important;
+}
+
+#-webkit-web-inspector button:hover,
+#-webkit-web-inspector .toolbar-item.toggleable.toggled-on {
+	transition: all 0.5s ease;
+	background-color: rgba(0,0,0,0.4) !important;
+}
+
+#-webkit-web-inspector #toolbar .toolbar-item {
+	height: 32px !important;
+}
+
+button.status-bar-item.toggled-on .glyph {
+	background-color: rgba(52, 152, 219,1.0) !important;
+}
+
+#-webkit-web-inspector #toolbar > button:hover .toolbar-label,
+#-webkit-web-inspector .toolbar-item.toggleable.toggled-on .toolbar-label {
+	color: #f8f8f8 !important;
+}
+
+#-webkit-web-inspector #toolbar > div:first-child {
+	display: block !important;
+}
+
+#-webkit-web-inspector #close-button-left,
+#-webkit-web-inspector #close-button-right {
+	position: relative;
+	top: 9px;
+}
+
+#-webkit-web-inspector #main {
+	top: 34px !important;
+}
+
+#-webkit-web-inspector .pane > .title {
+	line-height: 12px !important;
+}
+
+#-webkit-web-inspector .split-view-sidebar-right {
+	border-left: 1px solid #444444 !important;
+	background: #272822 !important;
+}
+
+#-webkit-web-inspector .styles-section:not(.first-styles-section) {
+	border-top: 1px solid #44444 !important;
+}
+
+#-webkit-web-inspector .pane > .title,
+#-webkit-web-inspector .split-view-sidebar-right .pane .sidebar-separator {
+	background-image: -webkit-linear-gradient(#505050,#383838) !important;
+	padding: 2px 5px !important;
+	border-top: 1px solid #636363 !important;
+	border-bottom: 1px solid rgba(0,0,0,0.3) !important;
+	color: #eee !important;
+	text-shadow: #222 0 1px 0 !important;
+	white-space: nowrap !important;
+	text-overflow: ellipsis !important;
+	overflow: hidden !important;
+	font-size: 11px !important;
+}
+
+#-webkit-web-inspector .pane > .title > .pane-title-button,
+#-webkit-web-inspector .pane > .title > select.select-setting {
+	position: relative;
+	top: -3px;
+}
