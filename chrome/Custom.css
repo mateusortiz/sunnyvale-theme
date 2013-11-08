@@ -6,7 +6,7 @@
 /*
 /*
 /* @author Mateus Ortiz <mateus.prado@ig.com.br>
-/* @author Fabio M. Costa <**@gmail.com>
+/* @author Fabio M. Costa <fabiomcosta@gmail.com>
 /*************************************************************************/
 
 
@@ -396,4 +396,3 @@ body#-webkit-web-inspector .webkit-html-external-link, .webkit-line-gutter-backd
 #-webkit-web-inspector ::-webkit-scrollbar-track:vertical {
 	-webkit-box-shadow: inset 4px 1px 8px 1px rgba(0,0,0,0.3) !important;
 }
-
