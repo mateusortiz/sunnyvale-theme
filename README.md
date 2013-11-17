@@ -1,4 +1,6 @@
-theme-devtools
+SunnyVale-Theme
 ==============
 
-Theme for chrome DevTools
+> SunnyVale-Theme for Chrome DevTools, Sublime Text and Vim.
+
+
