@@ -59,5 +59,4 @@ install it manually by following these instructions:
 
 #### Activating the Theme
 Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme.
-=======
-Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme. 
+
