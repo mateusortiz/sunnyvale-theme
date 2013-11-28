@@ -1,6 +1,5 @@
 # SunnyVale-Theme
 
-
 > SunnyVale-Theme for Chrome DevTools and Sublime Text.
 
 ## Contents
@@ -59,4 +58,5 @@ install it manually by following these instructions:
 
 #### Activating the Theme
 Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme.
+
 
