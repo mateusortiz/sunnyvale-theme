@@ -1,0 +1,332 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #95a5a6;
+	background-image: url('../img/bg.jpg');
+	font-family: "Open Sans", "Source Sans Pro", sans-serif;
+   color: #f2f2f2;
+}
+
+a {
+   -webkit-transition: all .3s linear;
+	transition: all .3s linear;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 300;
+  margin: 0 0 1em;
+}
+
+h3 {
+  text-align: left;
+  color: #ff79c6;
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2em;
+  font-weight: 300;
+  margin: 1em 0 .3em;
+}
+
+::selection {
+	background: #cc81ea;
+  	color: #ecf0f1;
+}
+
+.wrapper {
+  width: 840px;
+  margin: 0 auto;
+}
+
+#github img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000000;
+}
+
+#github img:hover {
+  opacity: .9;
+}
+
+#github img:active {
+  opacity: 1;
+}
+
+#github:active {
+  position: static;
+  top: auto;
+}
+
+.img {
+	width: 834px;
+	height: 642px;
+}
+
+/* ===================================================
+	HEADER
+	=================================================== */
+
+.title {
+	color: #2ecc71;
+	font-size: 3.90em;
+	text-align: center;
+	margin: 1em auto 0;
+}
+/* ===================================================
+	Subtitle
+	=================================================== */
+
+.subtitle {
+	color: #2c3e50;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.subtitle a {
+	text-decoration: none;
+	color: #e67e22;
+}
+
+.subtitle a:hover {
+	color: #2ecc71;
+}
+
+#sublime-text {
+	margin: 6em 3em 0;
+}
+
+#sublime-text h2 {
+	text-decoration: none;
+	color: #e67e22;
+	font-size: 2.5em;
+}
+
+
+/* ===================================================
+	Social
+	=================================================== */
+
+.social {
+  list-style: none;
+  margin: 1em auto 2em;
+  text-align: center;
+}
+
+.social li {
+	display: inline-block;
+  	margin: 0 5px;
+}
+
+.tweet-btn {
+	width: 80px; 
+	height: 20px;
+}
+
+.gth-btn {
+   width: 80px;
+}
+
+.gth-btn iframe {
+	border: 0;
+	overflow: hidden;
+}
+
+.fb-btn {
+	width: 85px;
+}
+
+/* ===================================================================
+   instruction
+   =================================================================== */
+
+.instruction h4 {
+	color: #2c3e50;
+}
+
+.instruction p {
+	color: #2c3e50;
+	font-size: 1em;
+}
+
+code {
+	color: #e67e22;
+  	font-weight: 300;
+  	font-family: "source-sans-pro";
+}
+
+pre {
+	background-color: #252525;
+	padding: 20px;
+	margin: 0 0 2em 0;
+	border-radius: 5px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+ol {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.instruction li {
+	display: inline-block;
+  	margin: 0 5px;
+  	color: #2c3e50;
+}
+
+.instruction a {
+	color: #e67e22;
+}
+
+.instruction a:hover {
+	color: #2ecc71;
+}
+
+/* ================================================
+	Footer
+	================================================ */
+
+.credits p {
+	text-align: center;
+	color: #2c3e50;
+	font-size: 1.1em;
+	margin: 15px 0 50px 45px;
+}
+
+.credits a {
+	text-decoration: none;
+	color: #5dcaf3;
+}
+
+.credits a:hover {
+	text-shadow: 2px 2px 10px #bdc3c7;
+}
+
+.credits .heart {
+	display: inline-block;
+	position: relative;
+	top: .2em;
+	font-size: 2.4em;
+	color: #e74c3c;
+	-webkit-transform: scale(.9);
+	-moz-transform: scale(.9);
+	transform: scale(.9);
+	-webkit-animation: love .5s infinite linear alternate-reverse;
+	-moz-animation: love .5s infinite linear alternate-reverse;
+	animation: love .5s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes love {
+  to {-webkit-transform: scale(1.3);}
+}
+@-moz-keyframes love {
+  to {-moz-transform: scale(1.3);}
+}
+@keyframes love {
+  to {transform: scale(1.3);}
+}
+
+
+/* ==========================================================================
+	DevTools
+	========================================================================== */
+
+#devtools {
+	margin: 6em 3em 0;
+}
+
+#devtools h2 {
+	color: #1abc9c;
+	font-size: 2.5em;
+}
+
+#devtools code {
+	color: #2ecc71;
+  	font-weight: 300;
+  	font-family: "source-sans-pro";
+}
+
+#devtools a {
+	color: #2ecc71;
+}
+
+
+/* ==========================================================================
+	VIM
+	========================================================================== */
+
+#vim {
+	margin: 6em 3em auto;
+}
+
+#vim h2 {
+	color: #2980b9;
+	font-size: 2.5em;
+}
+
+#vim code {
+	color: #3498db;
+	font-weight: 300;
+	font-family: "source-sans-pro";
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Small screens
+   ========================================================================== */
+
+@media (max-width: 840px) {
+        .wrapper {
+                width: auto;
+        }
+
+        .instruction {
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+        }
+
+}
+
+
+@media (max-width: 480px) {
+        .title {
+                font-size: 4em;
+        }
+
+        ol, p, .subtitle h2, .credits {
+                font-size: 1.09em;
+        }
+
+        h3 {
+                font-size: 2em;
+        }
+
+        h4 {
+                font-size: 1.6em;
+        }
+
+        
+        .social {
+                display: none;
+        }
+}
+
+@media only screen and (max-device-width: 480px) {
+        
+        .social {
+                display: none;
+        }
+}
