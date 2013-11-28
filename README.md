@@ -11,7 +11,7 @@
 
 ## Chrome DevTools
 
-![Chrome DevTools](http://imageshack.com/a/img855/4125/rd4f.png)
+![Chrome DevTools](http://mateusortiz.github.io/sunnyvale-theme/assets/img/chrome.png)
 
 #### Download using Git
 You can install the theme by cloning the repo:
@@ -31,7 +31,7 @@ Just locate the User Stylesheets directory and override the Custom.css:
 
 ## Sublime Text
 
-![Sublime Preview](http://imageshack.com/a/img823/5756/19sc.png)
+![Sublime Preview](http://mateusortiz.github.io/sunnyvale-theme/assets/img/sublime.png)
 
 #### Install using Package Control
 You can install it using Package Control manager for Sublime Text:
@@ -58,5 +58,4 @@ install it manually by following these instructions:
 4. You can find that directory by selecting ** Preferences ~> Browse Packages ... **
 
 #### Activating the Theme
-Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme.
-
+Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme. 
