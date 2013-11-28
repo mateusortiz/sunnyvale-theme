@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>SunnyVale-Theme</title>
-		<!-- my Syles -->
-		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- my Styles -->
+		<link rel="stylesheet" href="../assets/css/style.css">
 		<!-- my Fonts -->
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800">
 	</head>
@@ -17,8 +17,8 @@
 			<h1 class="title">SunnyVale</h1>
 			<p class="subtitle">
 				Theme Light for 
-				<a href="{{ site.baseurl }}/#sublime-text/">Sublime Text</a>
-				<a href="{{ site.baseurl }}/chrome/">DevTools</a>
+				<a href="/index.html">Sublime Text</a>,
+				<a href="#devtools">DevTools</a>
 			</p>
 			<ul class="social">
 				<li class="tweet-btn">
@@ -42,31 +42,26 @@
 				</li>
 			</ul>
 
-			<div id="sublime-text">
-				<h2>Sublime Text</h2>
-				<img src="assets/img/sublime.png" alt="Preview Sublime Text" class="img">
+			<div id="devtools">
+				<h2>Chrome DevTools</h2>
+				<img src="../assets/img/chrome.png" alt="Preview DevTools" class="img">
 				<div class="instruction">
-					<h4>Install using Package Control</h4>
-					<p>You can install it using Package Control manager for Sublime Text:</p>
-					<p>1. Open "Package Control: Install Package" from the Sublime quick menu (Command-Shift-P).</p>
-					<p>2. Select the 'Sunnyvale Color Scheme' option to install Sunnyvale.</p>
+					<h4>Download using Git</h4>
+					<p>You can install the theme by cloning the repo:</p>
+					<pre><code>$ git clone https://github.com/mateusortiz/sunnyvale-theme/</code></pre>
 
-					<h4>Install using Git</h4>
-					<p>If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area.</p>
-					<p>While inside the Packages directory, clone the theme repository using the command below:</p>
-					<pre><code>$ git clone https://github.com/mateusortiz/sunnyvale-theme/ "Sunnyvale Color Scheme"</code></pre>
-
-					<h4>Install manually</h4>
-					<p>install it manually by following these instructions:</p>
-					<ol>
-						<li>1. <a href="https://github.com/mateusortiz/sunnyvale-theme/archive/master.zip" target="_blank"> Download theme files</a></li><br>
-						<li>2. Unzip the files and rename the folder to <code>SunnyVale Color Scheme</code></li><br>
-						<li>3. Copy the folder newly created to into your Sublime Text Packages directory</li><br>
-						<li>4. You can find that directory by selecting <code>Preferences ~> Browse Packages ...</code></li>
-					</ol>
+					<h4>Download manually</h4>
+					<p>Download <a href="https://github.com/mateusortiz/sunnyvale-theme/archive/master.zip" target="_blank">GitHub .zip</a>and unzip them.</p>
 
 					<h4>Activating the Theme</h4>
-					<p>Go to <code>Preferences -&gt; Color Scheme</code> and select the <code>Sunnyvale Color Scheme</code>.</p>
+					<p>Just locate the User Stylesheets directory and override the Custom.css:</p>
+					<ol>
+						<li><strong>Mac OS X: </strong> Replaces <code>chrome/Custom.css</code> file to <code>~/Library/Application\ Support/Google/Chrome/Default/User\ StyleSheets/Custom.css</code></a></li><br>
+
+						<li><strong>PC(Windows Vista, 7, 8) :</strong> Replaces <code>chrome/Custom.css</code> file to <code>C:\Users\YourUsername\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css</code></li><br>
+
+						<li><strong>Ubuntu (Chromium) :</strong> Replaces <code>chrome/Custom.css</code> file to <code>~/.config/chromium/Default/User\ StyleSheets/Custom.css</code></li><br>
+					</ol>
 				</div>
 			</div>
 			
