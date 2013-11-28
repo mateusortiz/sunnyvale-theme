@@ -1,6 +1,6 @@
-/* Theme devTools v0.1.0
+/* SunnyVale Theme devTools v0.1.0
  *
-/* https://github.com/mateusortiz/theme-devtools
+/* https://github.com/mateusortiz/sunnyvale-devtools
 /*
 /* Copyright 2013, All rights reserved
 /*
@@ -88,8 +88,8 @@ body.undocked.platform-mac-mountain-lion.inactive #toolbar {
 }
 
 #-webkit-web-inspector #main { 
-  background-color: #fdf6e3 !important;
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,.5), rgba(0,0,0,.1) 7px, #eee8d5 8px, #fdf6e3 10px, #fdf6e3) !important;
+  background-color: #ecf0f1 !important;
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,.5), rgba(0,0,0,.1) 7px, #eee8d5 8px, #ecf0f1 10px, #ecf0f1) !important;
 } 
 
 #-webkit-web-inspector .status-bar,
@@ -116,7 +116,7 @@ body.undocked.platform-mac-mountain-lion.inactive #toolbar {
 /*    Prompt Interno => line 118 the 121
 -------------------------------------------------------------- */
 #-webkit-web-inspector #drawer {
-  background-color: #fdf6e3 !important;  
+  background-color: #ecf0f1 !important;  
   z-index: 1;
 }
 
