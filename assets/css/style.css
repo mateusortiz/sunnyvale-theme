@@ -64,8 +64,9 @@ h4 {
 }
 
 .img {
-	width: 834px;
-	height: 642px;
+	display: block;
+	height: auto;
+	max-width: 100%;
 }
 
 /* ===================================================
