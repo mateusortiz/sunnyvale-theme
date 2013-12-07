@@ -8,6 +8,7 @@
 
 * [Chrome DevTools](#chrome-devtools)
 * [Sublime Text](#sublime-text)
+* [Team](#team)
 * [License](LICENSE)
 
 ## Chrome DevTools
@@ -41,6 +42,7 @@ You can install it using Package Control manager for Sublime Text:
 
 2. Select the 'Sunnyvale-Theme' option to install Sunnyvale. 
 
+
 #### Install using Git
 If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area.
 
@@ -60,3 +62,13 @@ install it manually by following these instructions:
 
 #### Activating the Theme
 Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme. 
+
+## Team
+
+[![Mateus Ortiz](https://2.gravatar.com/avatar/c626989c7ee2bc0734048da9f336d0a3?d=https%3A%2F%2Fidenticons.github.com%2F854534f866ca6eafcf0b5c65c6cbaf53.png&s=70)](https://twitter.com/mteusortiz) |
+--- | --- | --- | --- | --- | --- | ---
+[Mateus Ortiz](https://twitter.com/mteusortiz)<br>Megaranto |
+
+[![Fabio M. Costa](https://2.gravatar.com/avatar/1eb74ff8a32ed9c32c99b59c41d82bee?d=https%3A%2F%2Fidenticons.github.com%2Fb96f94574298ff170b3fe1bfc2513f55.png&r=x&s=70)](https://twitter.com/fabiomiranda) |
+--- | --- | --- | --- | --- | --- | ---
+[Fabio M. Costa](https://twitter.com/fabiomiranda)<br>Facebook |
