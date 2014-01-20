@@ -75,8 +75,9 @@ h4 {
 
 .title {
 	color: #2ecc71;
-	font-size: 3.90em;
+	font-size: 4.90em;
 	text-align: center;
+	text-shadow: 0 8px 0 rgba(0, 0, 0, 0.15);
 	margin: 1em auto 0;
 }
 /* ===================================================
