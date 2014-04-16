@@ -62,6 +62,10 @@ install it manually by following these instructions:
 #### Activating the Theme
 Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme. 
 
+## Credits
+
+Readme inspired by [Dracula](github.com/zenorocha/dracula-theme)
+
 ## Team
 
 [![Mateus Ortiz](https://2.gravatar.com/avatar/c626989c7ee2bc0734048da9f336d0a3?d=https%3A%2F%2Fidenticons.github.com%2F854534f866ca6eafcf0b5c65c6cbaf53.png&s=70)](https://twitter.com/mteusortiz) |
