@@ -64,7 +64,7 @@ Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme
 
 ## Credits
 
-Readme inspired by [Dracula](github.com/zenorocha/dracula-theme)
+inspired by [Dracula](https://github.com/zenorocha/dracula-theme)
 
 ## Team
 
