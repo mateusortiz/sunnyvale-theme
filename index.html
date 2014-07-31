@@ -1,88 +1,45 @@
 <!doctype html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8">
-		<title>SunnyVale-Theme</title>
-		<!-- my Syles -->
-		<link rel="stylesheet" href="assets/css/style.css">
-		<!-- my Fonts -->
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800">
-	</head>
-	<body>
-		<a href="https://github.com/mateusortiz/sunnyvale-theme" id="github">
-			<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
-		</a>
+  <head>
+    <meta charset="UTF-8">
+    <title>SunnyVale-Theme</title>
+    <meta name="author" content="Mateus Ortiz and Fabio miranda">
+    <meta name="description" content="A light Theme for Sublime Text">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<div class="wrapper">
-			<h1 class="title">SunnyVale</h1>
-			<p class="subtitle">
-				Light Theme for 
-				<a href="#sublime-text">Sublime Text</a>,
-				<a href="http://mateusortiz.github.io/sunnyvale-theme/chrome">DevTools</a>
-			</p>
-			<ul class="social">
-				<li class="tweet-btn">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-text="SunnyVale — light theme for Sublime Text, Chrome DevTools, and Vim http://mateusortiz.github.io/sunnyvale-theme" data-via="mteusortiz">Tweet</a>
-				</li>
-				<li class="gth-btn">
-					<iframe src="http://ghbtns.com/github-btn.html?user=mateusortiz&amp;repo=sunnyvale-theme&amp;type=watch&amp;count=true" width="100" height="20" title="Star on GitHub"></iframe>
-				</li>
-				<li class="fb-btn">
-					<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fmateusortiz.github.io%2Fsunnyvale-theme&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=1425740347639442" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:21px;" allowTransparency="true"></iframe>
-				</li>
-				<li class="gpls-btn">
-					<div class="g-plusone" data-size="medium" data-href="http://mateusortiz.github.io/sunnyvale-theme"></div>
-					<script type="text/javascript">
-					  (function() {
-					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-					    po.src = 'https://apis.google.com/js/plusone.js';
-					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-					  })();
-					</script>
-				</li>
-			</ul>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
 
-			<div id="sublime-text">
-				<h2>Sublime Text</h2>
-				<img class="img" src="assets/img/sublime.png" alt="Preview Sublime Text" width="834" height="642">
-				<div class="instruction">
-					<h4>Install using Package Control</h4>
-					<p>You can install it using Package Control manager for Sublime Text:</p>
-					<p>1. Open "Package Control: Install Package" from the Sublime quick menu (Command-Shift-P).</p>
-					<p>2. Select the 'Sunnyvale Color Scheme' option to install Sunnyvale.</p>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800">
+  </head>
+  <body>
 
-					<h4>Install using Git</h4>
-					<p>If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your Packages directory in the Sublime Text application settings area.</p>
-					<p>While inside the Packages directory, clone the theme repository using the command below:</p>
-					<pre><code>$ git clone https://github.com/mateusortiz/sunnyvale-theme/ "Sunnyvale Color Scheme"</code></pre>
+    <header>
+      <h1>SunnyVale Theme</h1>
+      <p>Light Theme for Sublime Text, DevTools</p>
 
-					<h4>Install manually</h4>
-					<p>install it manually by following these instructions:</p>
-					<ol>
-						<li>1. <a href="https://github.com/mateusortiz/sunnyvale-theme/archive/master.zip" target="_blank"> Download theme files</a></li><br>
-						<li>2. Unzip the files and rename the folder to <code>SunnyVale Color Scheme</code></li><br>
-						<li>3. Copy the folder newly created to into your Sublime Text Packages directory</li><br>
-						<li>4. You can find that directory by selecting <code>Preferences ~> Browse Packages ...</code></li>
-					</ol>
+      <a href="#" class="btn btn-devtools desktop">theme Chrome DevTools</a>
+      <a href="#" class="btn btn-sublime desktop">Theme Sublime Text</a>
+    </header>
 
-					<h4>Activating the Theme</h4>
-					<p>Go to <code>Preferences -&gt; Color Scheme</code> and select the <code>Sunnyvale Color Scheme</code>.</p>
-				</div>
-			</div>
-			
-			<footer class="credits">
-				<p>
-				Developed with 
-				<span class="heart">♥</span> 
-				By 
-				<a href="https://twitter.com/mteusortiz">Mateus Ortiz</a>
-				and
-				<a href="https://twitter.com/fabiomiranda">Fabio Miranda</a>
-				</p>
-			</footer>
-		</div>
+    <section class="screenshots">
+        <img src="assets/img/sublime.png" alt="SunnyVale Screenshot">
+    </section>
 
-		<!-- Script Tweet -->
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-	</body>
+
+    <footer class="credits">
+      <a href="#" class="btn download">Get theme on Github</a>
+      <p>
+      Developed with
+      <span class="heart">♥</span>
+      By
+      <a href="https://twitter.com/mteusortiz">Mateus Ortiz</a>
+      and
+      <a href="https://twitter.com/fabiomiranda">Fabio Miranda</a>
+      </p>
+    </footer>
+
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
