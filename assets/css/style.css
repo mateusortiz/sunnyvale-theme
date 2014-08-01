@@ -36,6 +36,16 @@ section {
   border-color: #2980b9;
 }
 
+.btn.outline {
+  background-color: transparent;
+  border: 1px solid #3498db;
+  color: #3498db;
+}
+
+.btn.outline:hover {
+  border-color: #2980b9;
+}
+
 .screenshots {
   width: 100%;
   background-color: #34495e;
