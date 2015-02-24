@@ -34,12 +34,16 @@ Just locate the User Stylesheets directory and override the Custom.css:
 
 ![Sublime Preview](http://mateusortiz.github.io/sunnyvale-theme/assets/img/sublime.png)
 
+Or version color scheme Dark
+
+![Sublime Preview Dark theme](http://mateusortiz.github.io/sunnyvale-theme/assets/img/sublime-dark.png)
+
 #### Install using Package Control
 You can install it using Package Control manager for Sublime Text:
 
 1. Open "Package Control: Install Package" from the Sublime quick menu (Command-Shift-P).
 
-2. Select the 'Sunnyvale-Theme' option to install Sunnyvale. 
+2. Select the 'Sunnyvale-Theme' option to install Sunnyvale.
 
 
 #### Install using Git
@@ -60,7 +64,7 @@ install it manually by following these instructions:
 4. You can find that directory by selecting ** Preferences ~> Browse Packages ... **
 
 #### Activating the Theme
-Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme. 
+Go to ** Preferences -> Color Scheme ** and select the ** Sunnyvale Color Scheme.
 
 ## Credits
 
