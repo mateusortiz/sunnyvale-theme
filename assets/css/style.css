@@ -1,11 +1,11 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #fff;
-	font-family: "Open Sans", "Source Sans Pro", sans-serif;
+  background-color: #fff;
+  font-family: "Open Sans", "Source Sans Pro", sans-serif;
   color: #3498db;
   line-height: 1.5;
 }
@@ -14,6 +14,10 @@ a {
   color: #000;
   text-decoration: none;
 }
+
+/* =========================================================
+    Header/sections/buttons
+  ============================================================ */
 
 header {
   padding: 1em;
@@ -58,6 +62,10 @@ section {
 .screenshots img {
   max-width: 100%;
 }
+
+/* =========================================================
+    Slides
+  ============================================================ */
 
 .rslides {
   position: relative;
@@ -129,6 +137,10 @@ section {
   font-weight: bold;
 }
 
+/* =========================================================
+    footer
+  ============================================================ */
+
 footer {
   padding: 1.5em;
   background-color: #eff1f5;
@@ -147,6 +159,9 @@ footer a {
   margin-top: 2em;
 }
 
+/* =========================================================
+    Media queries
+  ============================================================ */
 
 @media (min-width: 768px) {
   header, section, footer {
@@ -162,7 +177,7 @@ footer a {
 
 a {
    -webkit-transition: all .3s linear;
-	transition: all .3s linear;
+  transition: all .3s linear;
 }
 
 p {
