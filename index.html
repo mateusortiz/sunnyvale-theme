@@ -29,12 +29,13 @@
       <h1>SunnyVale Theme</h1>
       <p>Light Theme for Sublime Text, DevTools</p>
 
-      <a href="#" class="btn btn-devtools desktop">theme Chrome DevTools</a>
-      <a href="#" class="btn btn-sublime desktop">Theme Sublime Text</a>
+      <a href="https://www.github.com/mateusortiz/sunnyvalle-theme" class="btn desktop">SunnyVale Theme</a>
     </header>
 
-    <section class="screenshots">
-        <img src="assets/img/sublime.png" alt="SunnyVale Screenshot">
+    <section id="slider" class="screenshots rslides">
+      <img src="assets/img/sublime-dark.png" alt="SunnyVale Dark theme">
+      <img src="assets/img/sublime.png" alt="SunnyVale Screenshot">
+      <img src="assets/img/chrome.png" alt="devtools">
     </section>
 
 
@@ -52,6 +53,17 @@
     </footer>
 
 
-    <script src="assets/js/main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="assets/js/responsiveslides.min.js"></script>
+
+    <script>
+    $(function() {
+      $('.rslides').responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 650
+      });
+    });
+    </script>
   </body>
 </html>
